@@ -1,0 +1,102 @@
+/*Colors and fonts*/
+
+body {
+   background: #FFF3E4;
+   color: black;
+   font-family: 'Rasa', serif;
+  
+}
+
+h1 {
+   color:#E09891;
+   font-family: 'Rambla', sans-serif;
+   size:50px;
+
+}
+
+
+h2  { 
+   color:#7D5A50;
+   font-size: 30px;
+   font-weight: lighter;
+
+}
+
+h3 {
+	color:#F9C22E;
+	size: 32px;
+	font-family: 'Rambla', sans-serif;
+
+}
+a {
+   font-family: 'Asap', sans-serif;
+   color:#157A6E;
+}
+
+a:hover { 
+  color: black;
+}
+
+
+
+/*Custom design with class*/
+
+.container {
+     width: 650px;
+     margin: 40px auto;
+
+}
+
+.card-white { 
+     background-color: white;
+     padding: 40px;
+     box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+     border-radius: 4px;
+     margin: 20px 0px ;
+     text-align: center;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+.btn-blue {
+
+	background-color: #157A6E;   
+	color: white;
+	padding: 15px 20px;
+	border-radius: 5px;
+}
+
+.btn-blue: hover {
+    background-color: white;
+    color: black;
+
+}
+
+.list-inline {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px
+
+}
+
+.list-inline i {
+  font-size: 50px;
+  color: rgb(230,230,230);
+
+}
+
+.list-inline i:hover {
+
+  color: black;
+
+}
+
+#introduction p { 
+    margin-bottom: 40px;
+ }
